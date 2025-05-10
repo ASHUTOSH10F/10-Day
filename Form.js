@@ -133,12 +133,12 @@
 
 
 
-let x = null;
+// let x = null;
 
-console.log(typeof(x));
+// console.log(typeof(x));
 
-let y = undefined;
-console.log(typeof(y));
+// let y = undefined;
+// console.log(typeof(y));
 
 
 // let z = NaN 
@@ -156,6 +156,6 @@ console.log(typeof(y));
 // console.log(a); // 10
 
 
-let student = "1"+"1"-1;
-console.log(student);
 
+let a = "hello';
+console.log(a); 
