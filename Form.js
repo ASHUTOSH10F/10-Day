@@ -156,6 +156,69 @@
 // console.log(a); // 10
 
 
+// let  num ="20"
 
-let a = "hello';
-console.log(a); 
+
+// Parctice Question
+
+let  city ="Jaipur";
+console.log(city);
+
+let num= 20;
+console.log( typeof(num));
+
+
+var  student ="John";
+console.log(student);
+
+let admin="John Kkumar";
+console.log(admin);
+
+const AdminLoginPassword="Admin";
+console.log(AdminLogin);
+
+
+"5"===5; // true
+"5"===5; // false
+
+
+let object ={
+    Name:"amit",
+    age:23,
+    isPassed:true,
+}
+
+
+let array =["mango","apple","bannana","orange"];
+console.log(array);
+array.push("grapes");
+console.log(array);
+
+
+let x =99.99
+console.log(x);
+
+
+
+let input =prompt("Enter a number");
+if(Marks>60)
+{
+    alert("You are pass");
+}
+else
+{
+    alert("Make More Efforts");
+}
+
+
+const name = "John";
+const age = 30;
+if (name =="" || age == "") {
+    alert("All fields are required");
+}
+
+
+let btn =document.getElementsByClassName("btn-primary");
+btn.addEventListener("click", function() {
+    alert("Button clicked");
+});

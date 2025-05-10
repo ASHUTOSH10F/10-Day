@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="Form.css" />
-  </head>
-  <body>
-    <h1 style="text-align: center;">Html Form</h1>
-    <form action="#" id="form">
-      <div class="container form">
-        <label for="Name">UserName:</label>
-        <input type="text" id="Name" name="Name" />
-        <label for="Email">EmailId:</label>
-        <input
-          type="email"
-          id="Email"
-          name="Email"
-          placeholder="Enter your email"
-        />
-        <label for="Password">Password:</label>
-        <input type="password" id="Password" /><br>
-        <button class="submit-btn" type="submit">Submit</button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <title>Form</title>
+</head>
+<body>
+<div class="conatiner">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Form</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </div>
-      <script src="Form.js"></script>
-    </form>
-  </body>
+    </div>
+  </div>
+</nav>
+</div>
 
 
-
-  <button type="button" id="btn">click Me</button>
+<div class="container">
+  <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Name</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="UserName">
+</div>
+  <div class="mb-3">
+  <label for="exampleFormControlInput2" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput3" class="form-label">Email address</label>
+  <input type="password" class="form-control" id="exampleFormControlInput3" placeholder="Password">
+</div>
+<div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">SUbmit</button>
+</div>
+</div>
+</body>
 </html>
